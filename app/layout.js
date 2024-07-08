@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import "./globals.css";
+import AnimatedCursor from "react-animated-cursor";
+import "@radix-ui/themes/styles.css";
+import { Theme, ThemePanel } from "@radix-ui/themes";
+import Navbar from "./Components/Navbar";
+import MobileNavbar from "./Components/MobileNavbar";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +13,22 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="scroll-smooth ">
+      <body>
+        <AnimatedCursor
+        innerSize="25"
+        outerSize="25"
+        innerScale={2}
+        outerScale={2}
+        color="84,114,228"
+        />
+        <Theme accentColor="crimson" appearance="light">
+          <MobileNavbar/>
+          <Navbar />
+          {children}
+          {/* <ThemePanel /> */}
+        </Theme>
+      </body>
     </html>
   );
 }
