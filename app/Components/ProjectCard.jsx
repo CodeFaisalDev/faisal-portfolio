@@ -4,6 +4,7 @@ import AvatarCircles from "@/components/magicui/avatar-circles";
 import ShimmerButton from "@/components/magicui/shimmer-button";
 import ShineBorder from "@/components/magicui/shine-border";
 import CoolButton from "./CoolButton";
+import Link from 'next/link';
 
 const avatarUrls = ["/p1.png"];
 
@@ -36,9 +37,9 @@ const ProjectCard = () => {
                     </span>
                   </ShimmerButton>
                 </a>
-                <a href="/">
+                <Link href="/">
                   <CoolButton />
-                </a>
+                </Link >
               </div>
             </div>
           </div>

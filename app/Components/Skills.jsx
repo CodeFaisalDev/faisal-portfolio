@@ -93,7 +93,7 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          <div>
+          <div className="max-md:px-10">
             <IconCloud iconSlugs={slugs} />
           </div>
         </div>

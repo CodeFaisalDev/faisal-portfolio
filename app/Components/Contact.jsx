@@ -7,7 +7,7 @@ import { CoolMode } from "@/components/magicui/cool-mode";
 const Contact = () => {
   return (
     <section id="contact">
-      <div className="font-rubikshadow-[#5471e457] max-md:w-[90vw] rounded-2xl bg-[#ffffff7c] md:p-24 flex flex-col justify-center xl:mt-32 w-[70vw]">
+      <div className="font-rubikshadow-[#5471e457] max-md:-mt-10 max-md:mb-36 max-md:w-[90vw] rounded-2xl bg-[#ffffff7c] md:p-24 flex flex-col justify-center xl:mt-32 w-[70vw]">
         <div className="justify-center text-center">
           <h1 className="font-bold max-md:text-4xl text-6xl">Contact</h1>
         </div>

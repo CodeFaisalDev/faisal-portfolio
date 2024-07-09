@@ -1,6 +1,4 @@
-import { CheckIcon, ChevronRightIcon } from "lucide-react";
 
-import { AnimatedSubscribeButton } from "@/components/magicui/animated-subscribe-button";
 
 const CoolButton = () => {
   return (

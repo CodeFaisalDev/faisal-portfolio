@@ -5,7 +5,7 @@ import { BorderBeam } from '@/components/magicui/border-beam'
 
 const MobileNavbar = () => {
   return (
-    <nav className="flex  min-h-screen bottom-0 inset-x-0 md:hidden items-end mb-16 justify-center fixed z-50 ">
+    <nav className="flex min-h-fit bottom-0 inset-x-0 md:hidden items-end mb-16 justify-center fixed z-50 ">
       <div className="relative bg-[#ffffff9a] p-2 rounded-full px-5 ">
         <Dock>
           <DockIcon>
