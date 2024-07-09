@@ -47,7 +47,7 @@ const MobileNavbar = () => {
           </DockIcon>
 
           <DockIcon>
-            <Link href="/google.com">
+            <Link href="#portfolio">
               <svg
                 width="20"
                 height="20"
@@ -66,7 +66,7 @@ const MobileNavbar = () => {
           </DockIcon>
 
           <DockIcon>
-            <Link href="/">
+            <Link href="#contact">
               <svg
                 width="20"
                 height="20"
