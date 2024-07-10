@@ -1,8 +1,8 @@
-// "use client"
+
 import "./globals.css";
 import AnimatedCursor from "react-animated-cursor";
 import "@radix-ui/themes/styles.css";
-import { Theme, ThemePanel } from "@radix-ui/themes";
+import { Theme } from "@radix-ui/themes";
 import Navbar from "./Components/Navbar";
 import MobileNavbar from "./Components/MobileNavbar";
 // import useScreenWidth from "@/lib/useScreenWidth";
