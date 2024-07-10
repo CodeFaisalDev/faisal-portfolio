@@ -1,4 +1,6 @@
-import React from 'react'
+"use client";
+
+import React from 'react';
 import Image from "next/image";
 import AvatarCircles from "@/components/magicui/avatar-circles";
 import ShimmerButton from "@/components/magicui/shimmer-button";
@@ -6,47 +8,46 @@ import ShineBorder from "@/components/magicui/shine-border";
 import CoolButton from "./CoolButton";
 import Link from 'next/link';
 
-const avatarUrls = ["/p1.png"];
-
-const ProjectCard = () => {
+const ProjectCard = ({ name, img, git, demo, tech }) => {
   return (
-    <div className='flex justify-center my-3'>
-        <ShineBorder borderRadius={25} className={"p-5 hover:scale-105 transition-all duration-700"} color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}>
-        <div className="w-full h-fit ">
-          <Image
-            src="/p1.png"
-            width={1920}
-            height={1080}
-            className="w-full shadow-xl md:h-[25rem] lg:h-[20rem] 2xl:h-[30rem] object-cover "
-            // objectFit="cover"
-            alt="Portfolio Item"
-          />
+    <div className="flex w-full justify-center my-3">
+      <ShineBorder borderRadius={25} className="p-5 hover:scale-105 transition-all duration-700" color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}>
+        <div className="w-[80vw] md:w-[50vw] lg:w-[50vw] 2xl:w-[28vw] h-fit">
+          <div className="relative w-full h-[15rem] md:h-[25rem] lg:h-[20rem] 2xl:h-[30rem] overflow-hidden rounded-lg shadow-xl">
+            <Image
+              src={img}
+              layout="fill"
+              objectFit="cover"
+              alt="Portfolio Item"
+              className="w-full h-full"
+            />
+          </div>
           <div className="h-full">
-            <h1 className="text-center font-rubik text-gray-800 font-bold max-md:text-xl text-4xl mt-6">
-              Shols Ecommarce Website
+            <h1 className="text-center font-rubik text-gray-800 font-bold max-md:text-lg text-3xl mt-6">
+              {name}
             </h1>
-            <div className="grid max-md:justify-center md:flex mt-10 h-fit justify-between">
-              <div className='max-md:flex max-md:justify-center max-md:mb-5'>
-                <AvatarCircles numPeople={3} avatarUrls={avatarUrls} />
+            <div className="grid justify-center mt-10 h-fit">
+              <div className="flex w-full justify-center mb-5 max-md:mb-8">
+                <AvatarCircles numPeople={2} avatarUrls={tech} />
               </div>
               <div className="flex gap-3">
-                <a href="/">
+                <a href={git}>
                   <ShimmerButton className="shadow-2xl">
                     <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                       View Github
                     </span>
                   </ShimmerButton>
                 </a>
-                <Link href="/">
+                <Link href={demo}>
                   <CoolButton />
-                </Link >
+                </Link>
               </div>
             </div>
           </div>
         </div>
-        </ShineBorder>
+      </ShineBorder>
     </div>
-  )
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;

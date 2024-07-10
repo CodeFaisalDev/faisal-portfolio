@@ -11,11 +11,11 @@ const SkillDialog = ({ name, desc }) => {
 
         <Dialog.Content className="flex flex-col justify-center items-center" maxWidth="450px">
           <Dialog.Title>
-            <h1 className="text-3xl font-bold">
+            <h1 className="text-xl lg:text-3xl font-bold">
             {name}
             </h1>
             </Dialog.Title>
-          <Dialog.Description size="3" mb="4">
+          <Dialog.Description className="text-center px-10" size="4" mb="4">
             {desc}
           </Dialog.Description>
         </Dialog.Content>
