@@ -15,7 +15,7 @@ const Hero = () => {
                 words="Hello 👋 I'm Faisal Sorkar, a professional full-stack developer based in Dhaka, Bangladesh."
               />
               <h1 className="md:hidden h-fit font-bold text-center text-2xl md:text-4xl">
-              Hello 👋 I'm Faisal Sorkar, a professional full-stack developer based in Dhaka, Bangladesh.
+              Hello 👋 I&apos;m Faisal Sorkar, a professional full-stack developer based in Dhaka, Bangladesh.
               </h1>
             </div>
           </div>
