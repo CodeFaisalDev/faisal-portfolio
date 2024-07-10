@@ -1,4 +1,3 @@
-
 import "./globals.css";
 import AnimatedCursor from "react-animated-cursor";
 import "@radix-ui/themes/styles.css";
