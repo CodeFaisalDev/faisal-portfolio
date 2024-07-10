@@ -11,9 +11,12 @@ const Hero = () => {
           <div className="max-md:h-1/2 md:w-2/3 h-full items-center">
             <div className="flex h-full items-center">
               <WordPullUp
-                className="font-bold h-fit max-md:font-bold max-md:text-center text-2xl md:text-4xl lg:text-4xl xl:text-6xl 2xl:text-8xl 2xl:p-10"
+                className="max-md:hidden font-bold h-fit max-md:font-bold max-md:text-center text-2xl md:text-4xl lg:text-4xl xl:text-6xl 2xl:text-8xl 2xl:p-10"
                 words="Hello 👋 I'm Faisal Sorkar, a professional full-stack developer based in Dhaka, Bangladesh."
               />
+              <h1 className="md:hidden h-fit font-bold text-center text-2xl md:text-4xl">
+              Hello 👋 I'm Faisal Sorkar, a professional full-stack developer based in Dhaka, Bangladesh.
+              </h1>
             </div>
           </div>
           <div className="w-full h-full md:w-1/3 max-md:px-20 md:h-1/3 justify-center place-content-center">

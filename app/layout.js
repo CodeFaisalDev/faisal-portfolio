@@ -5,7 +5,6 @@ import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 import Navbar from "./Components/Navbar";
 import MobileNavbar from "./Components/MobileNavbar";
-// import useScreenWidth from "@/lib/useScreenWidth";
 
 export const metadata = {
   title: "Create Next App",
@@ -13,8 +12,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  // const screenWidth = useScreenWidth();
-  // const isMobile = screenWidth < 768; // md breakpoint in Tailwind CSS
 
   return (
     <html lang="en" className="scroll-smooth">
