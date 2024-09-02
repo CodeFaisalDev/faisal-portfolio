@@ -12,7 +12,7 @@ const ProjectCard = ({ name, img, git, demo, tech }) => {
   return (
     <div className="flex w-full justify-center my-3">
       <ShineBorder borderRadius={25} className="p-5 hover:scale-105 transition-all duration-700" color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}>
-        <div className="w-[80vw] md:w-[50vw] lg:w-[50vw] 2xl:w-[28vw] h-fit">
+        <div className="lg:w-[30vw] h-full md:w-[40vw] w-[80vw]">
           <div className="relative w-full h-[15rem] md:h-[25rem] lg:h-[20rem] 2xl:h-[30rem] overflow-hidden rounded-lg shadow-xl">
             <Image
               src={img}
@@ -22,7 +22,7 @@ const ProjectCard = ({ name, img, git, demo, tech }) => {
               className="w-full h-full"
             />
           </div>
-          <div className="h-full">
+          <div className="h-fit">
             <h1 className="text-center font-rubik text-gray-800 font-bold max-md:text-lg text-3xl mt-6">
               {name}
             </h1>
