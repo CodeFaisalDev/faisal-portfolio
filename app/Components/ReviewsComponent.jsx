@@ -5,37 +5,37 @@ const reviews = [
   {
     name: "Jack",
     username: "@jack",
-    body: "Faisal is an outstanding full-stack developer! His attention to detail and ability to understand complex requirements are remarkable. He not only met our expectations but exceeded them with innovative solutions. I would highly recommend him to anyone looking for a reliable and skilled developer.",
+    body: "Faisal is an outstanding full-stack developer! He not only met our expectations but exceeded them with innovative solutions. I would highly recommend him to anyone looking for a reliable and skilled developer.",
     img: "https://avatar.vercel.sh/jack",
   },
   {
     name: "Jill",
     username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    body: "Working with Faisal was an absolute pleasure. He brought our vision to life with impeccable execution and professionalism. His technical skills are top-notch, and his communication throughout the project kept us on track.",
     img: "https://avatar.vercel.sh/jill",
   },
   {
     name: "John",
     username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Faisal is one of the best developers I’ve ever worked with. His expertise in both front-end and back-end development made a huge difference for our project.",
     img: "https://avatar.vercel.sh/john",
   },
   {
     name: "Jane",
     username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Fantastic experience working with Faisal. He understood our needs perfectly and executed flawlessly.",
     img: "https://avatar.vercel.sh/jane",
   },
   {
     name: "Jenny",
     username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Faisal's expertise as a full-stack developer is exceptional. He took our project from concept to completion with ease. Working with him was a smooth and efficient experience.",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
     name: "James",
     username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "We worked with Faisal on a complex web application, and he was fantastic throughout the entire process. The final product was not only delivered on time but was polished and fully functional across all platforms.",
     img: "https://avatar.vercel.sh/james",
   },
 ];
