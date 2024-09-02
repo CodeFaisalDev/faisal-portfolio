@@ -5,7 +5,7 @@ const reviews = [
   {
     name: "Jack",
     username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    body: "Faisal is an outstanding full-stack developer! His attention to detail and ability to understand complex requirements are remarkable. He not only met our expectations but exceeded them with innovative solutions. I would highly recommend him to anyone looking for a reliable and skilled developer.",
     img: "https://avatar.vercel.sh/jack",
   },
   {
