@@ -6,6 +6,7 @@ import { EducationAndCertification } from "./Components/EduCri";
 import { EducationAndCertificationMobile } from "./Components/EduCriMobile";
 import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   const color = "indigo";
