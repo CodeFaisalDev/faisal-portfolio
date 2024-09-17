@@ -19,8 +19,8 @@ const portfolios = [
   {
     name: "Sass Platform",
     img: "/p3.png",
-    git: "/",
-    demo: "/",
+    git: "https://github.com/CodeFaisalDev/Sass-dev/tree/main",
+    demo: "https://sass-dev.vercel.app/",
     technologies: ["logos/nextjs.jpg", "logos/prisma.jpg", "logos/python.jpg"],
   },
   {
